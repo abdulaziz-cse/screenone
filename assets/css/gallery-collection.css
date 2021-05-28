@@ -1,0 +1,264 @@
+.gallery-year {
+  width: 30%;
+}
+
+.gallery-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+
+.gallery-grid > div {
+  width: 16.6%;
+  text-align: center;
+  padding: 0 3px;
+  margin-left: -50px;
+}
+
+/* .gallery-grid .gallery-col-2010 {
+    margin-left: 0;
+    margin-right: -20px;
+  } */
+
+.gallery-grid .gallery-col-2000 {
+  margin-top: -15px;
+}
+
+.gallery-col img {
+  /* height: 90px; */
+  height: 4.5vw;
+  width: 95%;
+  object-fit: cover;
+  object-position: bottom;
+  border: 1px solid #fff;
+  margin-bottom: 5px;
+}
+
+/* Col 1 */
+.gallery-col-2010 img:nth-of-type(1),
+.gallery-col-2010 img:nth-of-type(4),
+.gallery-col-2010 img:nth-of-type(6) {
+  height: 5.5vw;
+}
+
+.gallery-col-2010 img:nth-of-type(2) {
+  width: 60%;
+}
+
+.gallery-col-2010 img:nth-of-type(3) {
+  width: 40%;
+}
+
+.gallery-col-2010 img:nth-of-type(5) {
+  width: 50%;
+}
+
+.gallery-col-2010 img:nth-of-type(7) {
+  width: 45%;
+}
+
+/* Col 2000 */
+.gallery-col-2000 img:first-of-type {
+  height: 5vw;
+  width: 60%;
+}
+
+.gallery-col-2000 img:nth-of-type(2) {
+  height: 3.5vw;
+  width: 50%;
+}
+
+.gallery-col-2000 img:nth-of-type(3) {
+  height: 6vw;
+}
+
+.gallery-col-2000 img:nth-of-type(4) {
+  height: 6vw;
+  width: 65%;
+}
+
+.gallery-col-2000 img:nth-of-type(5) {
+  height: 6.2vw;
+  width: 80%;
+}
+
+.gallery-col-2000 img:nth-of-type(6) {
+  height: 6.5vw;
+  width: 90%;
+}
+
+/* 1990 */
+.gallery-col-1990 img:nth-of-type(1) {
+  width: 50%;
+  height: 6vw;
+}
+
+.gallery-col-1990 img:nth-of-type(2) {
+  width: 80%;
+  height: 6vw;
+}
+
+.gallery-col-1990 img:nth-of-type(3) {
+  width: 60%;
+  height: 4.2vw;
+}
+
+.gallery-col-1990 img:nth-of-type(4) {
+  height: 7.5vw;
+}
+
+.gallery-col-1990 img:nth-of-type(5) {
+  width: 45%;
+  height: 5.7vw;
+}
+
+.gallery-col-1990 img:nth-of-type(6) {
+  width: 90%;
+  height: 6.5vw;
+}
+
+.gallery-col-1990 img:nth-of-type(7) {
+  width: 45%;
+  height: 4vw;
+}
+
+/* 1980 */
+.gallery-col-1980 img:nth-of-type(1) {
+  height: 7vw;
+  width: 70%;
+}
+
+.gallery-col-1980 img:nth-of-type(2) {
+  height: 7vw;
+  width: 90%;
+}
+
+.gallery-col-1980 img:nth-of-type(3) {
+  height: 5vw;
+  width: 40%;
+}
+
+.gallery-col-1980 img:nth-of-type(4) {
+  height: 7vw;
+  width: 90%;
+}
+
+.gallery-col-1980 img:nth-of-type(5) {
+  height: 6vw;
+  width: 40%;
+}
+
+.gallery-col-1980 img:nth-of-type(6) {
+  height: 6vw;
+  width: 90%;
+}
+
+/* 1970 */
+.gallery-col-1970 img:nth-of-type(1) {
+  width: 65%;
+  height: 4.2vw;
+}
+
+.gallery-col-1970 img:nth-of-type(2) {
+  height: 6.5vw;
+}
+
+.gallery-col-1970 img:nth-of-type(3) {
+  height: 5vw;
+  width: 45%;
+}
+
+.gallery-col-1970 img:nth-of-type(4) {
+  height: 6vw;
+  width: 70%;
+}
+
+.gallery-col-1970 img:nth-of-type(5) {
+  height: 6vw;
+}
+
+.gallery-col-1970 img:nth-of-type(6) {
+  width: 75%;
+  height: 5.7vw;
+}
+
+.gallery-col-1970 img:nth-of-type(7) {
+  width: 50%;
+  height: 4.7vw;
+}
+
+/* Articles */
+.gallery-col-articles img:nth-of-type(1) {
+  width: 65%;
+  height: 4.2vw;
+}
+
+.gallery-col-articles img:nth-of-type(2) {
+  height: 6.5vw;
+}
+
+.gallery-col-articles img:nth-of-type(3) {
+  height: 5vw;
+  width: 45%;
+}
+
+.gallery-col-articles img:nth-of-type(4) {
+  height: 6vw;
+  width: 70%;
+}
+
+.gallery-col-articles img:nth-of-type(5) {
+  height: 6vw;
+}
+
+.gallery-col-articles img:nth-of-type(6) {
+  width: 75%;
+  height: 5.7vw;
+}
+
+.gallery-col-articles img:nth-of-type(7) {
+  width: 50%;
+  height: 4.7vw;
+}
+
+.gallery-col img.active {
+  position: relative;
+  z-index: 20;
+}
+
+.gallery-col img.unactive {
+  opacity: 0.03 !important;
+}
+
+.zoom {
+  background-position: 100% 100%;
+  position: relative;
+  /* width: 500px; */
+  overflow: hidden;
+  cursor: zoom-in;
+}
+
+.zoom img:hover {
+  opacity: 0;
+}
+
+.zoom img {
+  transition: opacity 0.5s;
+  display: block;
+  width: 100%;
+}
+
+.modal-memories-dialog {
+  max-width: 75vw !important;
+}
+
+.gallery-photos {
+  width: auto;
+}
+
+.img-slider-appended {
+  height: 70px;
+}

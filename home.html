@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Meta Tags -->
+  <meta charset="utf-8" />
+  <meta name="description" content="#" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Title -->
+  <title>Home</title>
+
+  <!-- Links -->
+  <!-- Project Shortcut Icon -->
+  <link rel="shortcut icon" href="assets/img/logo.svg" type="image/x-icon" />
+  <link rel="icon" href="assets/img/logo.svg" type="image/x-icon" />
+
+  <!-- Bootstrap V 4.1.3 -->
+  <link rel="stylesheet" href="assets/css/bootstrap.css" />
+  <!-- FontAwesome 5 -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css" />
+  <!-- Icomoon Library -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <!-- Convert Images Svg To Icons -->
+  <link rel="stylesheet" href="assets/css/icomoon.css" />
+  <!-- Main Style -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/gallery-collection.css" />
+</head>
+
+<body>
+
+  <!-- Start Modal -->
+  <div id="modalGallery" class="modal-memories">
+    <div class="close-modal">
+      <button id="closeModal">×</button>
+    </div>
+    <div class="modal-memories-dialog">
+      <div class="modal-memories-content bg-none">
+        <div class="gallery-photos">
+          <div class="gallery-main-image">
+            <div onmousemove="zoom(event)" id="zoom-auto" class="zoom-auto zoom"
+              style="background-image: url(assets/img/articles/article-2.png)">
+              <img id="galleryMainImage" src="" class="img-fluid" alt="" />
+            </div>
+            <!-- <div id="galleryMoreImgs" class="gallery-more-imgs pt-3"></div> -->
+            <!-- Slider main container -->
+            <div class="swiper-container">
+              <!-- Additional required wrapper -->
+              <div id="galleryMoreImgs" class="swiper-wrapper">
+                <!-- Slides -->
+                <!-- <div class="swiper-slide">Slide 1</div> -->
+              </div>
+            </div>
+          </div>
+          <div class="gallery-data">
+            <div id="galleryMainText" class="gd-text"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Modal -->
+
+  <!-- Canvas -->
+  <div class="main-bg"></div>
+  <!-- Canvas -->
+
+  <div class="wrapper">
+
+    <div class="container-fluid">
+      <div class="gallery-body">
+        <div class="gallery-year">
+          <a href="home.html" class="title text-uppercase">Sustainable Growth</a>
+          <div class="gallery-toggle-btns pl-4 pt-4">
+            <div id="1970" class="gy-btn"><button>1970s</button></div>
+            <div id="1980" class="gy-btn"><button>1980s</button></div>
+            <div id="1990" class="gy-btn"><button>1990s</button></div>
+            <div id="2000" class="gy-btn"><button>2000s</button></div>
+            <div id="2010" class="gy-btn"><button>2010s</button></div>
+          </div>
+        </div>
+
+        <div class="gallery-grid">
+
+ 
+
+          <!-- 2010 -->
+          <div class="gallery-col gallery-col-2010">
+            <div class="gallery-col-wrapper">
+              <img class="img-gallery-justified" data-year="2010" src="assets/img/2010s/2010s-3.jpg" />
+              <img class="img-gallery-justified" data-year="2010" src="assets/img/2010s/2010s-6.jpg" />
+              <img class="img-gallery-justified" data-year="2010" src="assets/img/2010s/2010s-7.png" />
+              <img class="img-gallery-justified" data-year="2010" src="assets/img/2010s/2010s-2.jpg" />
+              <img class="img-gallery-justified" data-year="2010" src="assets/img/2010s/photo.jpg" />
+              <img class="img-gallery-justified" data-year="2010" src="assets/img/2010s/Land Crouiser Photo.jpg" />
+              <img class="img-gallery-justified" data-year="2010" src="assets/img/2010s/2010s-5.jpg" />
+            </div>
+          </div>
+
+          <!-- 2000 -->
+          <div class="gallery-col gallery-col-2000">
+            <div class="gallery-col-wrapper">
+              <img class="img-gallery-justified" data-year="2000" src="assets/img/2000s/2000s-5.jpg" />
+              <img class="img-gallery-justified" data-year="2000" src="assets/img/2000s/2000s-4.jpg" />
+              <img class="img-gallery-justified" data-year="2000" src="assets/img/2000s/2000s-1.jpg" />
+              <img class="img-gallery-justified" data-year="2000" src="assets/img/2000s/2000s-7.jpg" />
+              <img class="img-gallery-justified" data-year="2000" src="assets/img/2000s/2000s-8.jpg" />
+              <img class="img-gallery-justified" data-year="2000" src="assets/img/2000s/2000s-6.jpg" />
+            </div>
+          </div>
+
+          <!-- 1990 -->
+          <div class="gallery-col gallery-col-1990">
+            <div class="gallery-col-wrapper">
+              <img class="img-gallery-justified" data-year="1990" src="assets/img/1990s/1990s-4.jpg" />
+              <img class="img-gallery-justified" data-year="1990" src="assets/img/1990s/1990s-5.jpg" />
+              <img class="img-gallery-justified" data-year="1990" src="assets/img/1990s/1990s-8.jpg" />
+              <img class="img-gallery-justified" data-year="1990" src="assets/img/1990s/1990s-3.jpg" />
+              <img class="img-gallery-justified" data-year="1990" src="assets/img/1990s/1990s-6.jpg" />
+              <img class="img-gallery-justified" data-year="1990" src="assets/img/1990s/1990s-9.png" />
+
+              <img class="img-gallery-justified" data-year="1990" src="assets/img/1990s/1990s-2.jpg" />
+            </div>
+          </div>
+
+          <!-- 1980 -->
+          <div class="gallery-col gallery-col-1980">
+            <div class="gallery-col-wrapper">
+              <img class="img-gallery-justified" data-year="1980" src="assets/img/1980s/1980s-5.jpg" />
+              <img class="img-gallery-justified" data-year="1980" src="assets/img/1980s/1980s-2.jpg" />
+              <img class="img-gallery-justified" data-year="1980" src="assets/img/1980s/1980s-3.jpg" />
+              <img class="img-gallery-justified" data-year="1980" src="assets/img/1980s/1980s-4.jpg" />
+              <img class="img-gallery-justified" data-year="1980" src="assets/img/1980s/1980s-9.jpg" />
+              <img class="img-gallery-justified" data-year="1980" src="assets/img/1980s/1980s-7.jpg" />
+            </div>
+          </div>
+
+          <!-- 1970 -->
+          <div class="gallery-col gallery-col-1970">
+            <div class="gallery-col-wrapper">
+              <img class="img-gallery-justified" data-year="1970" src="assets/img/1970s/1970s-3.jpg" />
+
+              <img class="img-gallery-justified" data-year="1970" src="assets/img/1970s/1970s-8.png" />
+              <img class="img-gallery-justified" data-year="1970" src="assets/img/1970s/1970s-2.jpg" />
+              <img class="img-gallery-justified" data-year="1970" src="assets/img/1970s/1970s-1.jpg" />
+              <img class="img-gallery-justified" data-year="1970" src="assets/img/1970s/1970s-5.jpg" />
+              <img class="img-gallery-justified" data-year="1970" src="assets/img/1970s/1970s-4.jpg" />
+              <img class="img-gallery-justified" data-year="1970" src="assets/img/1970s/1970s-7.bmp" />
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="container-fluid height-fluid">
+        <div class="footer-content height-fluid d-flex align-items-center justify-content-between">
+          <div class="fc-left">Saudi Aramco Mobility Center</div>
+          <div class="fc-right">
+            <a href="memories.html" class="d-flex align-items-center">
+              More <img src="assets/img/icons/arrowheads.svg" class="img-fluid icon-arrowheads" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <!-- Jquery V 3.3.1 -->
+  <script src="assets/js/jquery.min.js"></script>
+  <!-- Popper Js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap V 4.3.1 -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- Main Functions -->
+  <script src="assets/js/data.js"></script>
+  <!-- <script src="assets/js/canvas.js"></script> -->
+  <script src="assets/js/functions.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper-container', {
+      speed: 400,
+      spaceBetween: 6,
+      slidesPerView: 7,
+      watchSlidesVisibility: true,
+      observer: true,
+      on: {
+        slideChange: function () {
+          var active = $('.swiper-slide-active').find('img').attr('src');
+          console.log(active);
+        },
+      },
+    });
+
+    $(document).on('click', '.swiper-slide', function () {
+      var src = $(this).find('img').attr('src');
+      var desc = $(this).find('img').attr('data-desc');
+      $(this).addClass('active').siblings().removeClass('active');
+      $("#galleryMainImage").attr('src', src);
+      $("#zoom-auto").css('backgroundImage', `url(${src})`);
+      $("#galleryMainText").text(desc);
+    });
+  </script>
+  <script>
+    $('.gy-btn').on('click', function () {
+      $(this).addClass('active').removeClass('unactive').siblings().addClass('unactive');
+      var id = $(this).attr('id');
+      $('.img-gallery-justified').addClass('unactive');
+      $('.img-gallery-justified').removeClass('active');
+      $(`img[data-year=${id}]`).addClass('active').removeClass('unactive');
+    });
+  </script>
+  <script>
+    $("#closeModal").on('click', function () {
+      // $("#modalGallery").removeClass('active');
+      $("#modalGallery").fadeOut('slow', function () {
+        $("#galleryMoreImgs").html('');
+      });
+      $("body").css('overflow-y', 'auto');
+    });
+
+    $(document).on('click', '.img-gallery-justified.active', function () {
+      var dataYear = $(this).attr('data-year');
+      var mainImg = $(this).attr('src');
+      var year = parseInt(dataYear);
+      data.forEach(row => {
+        var htmlEl = '';
+        if (dataYear == row.year) {
+          for (let x = 0; x < row.gallery.length; x++) {
+            console.log(row.gallery[x].desc);
+            if (mainImg == row.gallery[x].img) {
+              $("#galleryMainText").text(row.gallery[x].desc);
+            }
+            htmlEl += `<div class='swiper-slide ${mainImg == row.gallery[x].img ? 'active' : ''}'><img class="img-slider-appended" src="${row.gallery[x].img}" data-desc="${row.gallery[x].desc}" /></div>`;
+          }
+        } else {
+          console.log('year no founded ' + year);
+          htmlEl = '';
+        }
+        $("#galleryMoreImgs").append(htmlEl);
+        // $("#modalGallery").addClass('active');
+        $("#modalGallery").fadeIn(600);
+        $("#galleryMainImage").attr('src', mainImg);
+        $("#zoom-auto").css('backgroundImage', `url(${mainImg})`);
+      });
+      $("body").css('overflow-y', 'hidden');
+    });
+  </script>
+  <script>
+    function zoom(e) {
+      var zoomer = e.currentTarget;
+      e.offsetX ? offsetX = e.offsetX : offsetX = e.touches[0].pageX
+      e.offsetY ? offsetY = e.offsetY : offsetX = e.touches[0].pageX
+      x = offsetX / zoomer.offsetWidth * 100
+      y = offsetY / zoomer.offsetHeight * 100
+      zoomer.style.backgroundPosition = x + '% ' + y + '%';
+    }
+  </script>
+</body>
+
+</html>

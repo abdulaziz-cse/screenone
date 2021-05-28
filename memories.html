@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Meta Tags -->
+  <meta charset="utf-8" />
+  <meta name="description" content="#" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Title -->
+  <title>Memories</title>
+
+  <!-- Links -->
+  <!-- Project Shortcut Icon -->
+  <link rel="shortcut icon" href="assets/img/logo.svg" type="image/x-icon" />
+  <link rel="icon" href="assets/img/logo.svg" type="image/x-icon" />
+
+  <!-- Bootstrap V 4.1.3 -->
+  <link rel="stylesheet" href="assets/css/bootstrap.css" />
+  <!-- FontAwesome 5 -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css" />
+  <!-- Icomoon Library -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <!-- Convert Images Svg To Icons -->
+  <link rel="stylesheet" href="assets/css/icomoon.css" />
+  <!-- Main Style -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<style>
+  body.modal-open {
+    overflow: hidden;
+  }
+
+  .swiper-slide img {
+    transition: all 0.2s ease-in-out;
+  }
+</style>
+
+<body>
+
+  <!-- Modal -->
+  <div id="modalMemories" class="modal-memories">
+    <div class="close-modal">
+      <button id="closeModal">×</button>
+    </div>
+    <div class="modal-memories-dialog">
+      <div class="modal-memories-content">
+        <div class="swiper-container swiper-container-main-memories">
+          <!-- Additional required wrapper -->
+          <div id="mainMemoriesSlider" class="swiper-wrapper main-memories-slider">
+
+          </div>
+        </div>
+        <div class="memories-arrows">
+          <button class="mem-arrow mem-arrow-prev"><img src="assets/img/icons/prev.svg" alt="" /></button>
+          <button class="mem-arrow mem-arrow-next"><img src="assets/img/icons/next.svg" alt="" /></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+
+  <!-- Canvas -->
+  <div class="main-bg"></div>
+  <!-- Canvas -->
+
+  <!-- Home Page -->
+  <div class="wrapper">
+    <div class="memories-container">
+      <div class="container-fluid">
+        <div class="memories-wrapper">
+          <div class="bg-title">More Memories</div>
+          <div class="memories-slider-container">
+
+            <!-- Slider Row 1970 -->
+            <div data-year="1970" class="memories-row">
+              <div class=" memories-title">1970s</div>
+              <div class="memories-row-data">
+                <button id="arrow1970Prev" class="memories-arrow">
+                  <img src="assets/img/icons/prev.svg" class="img-fluid" alt="" />
+                </button>
+                <div class="swiper-lib">
+                  <div class="swiper-container swiper-container-1970">
+                    <!-- Additional required wrapper -->
+                    <div id="swiper1970" class="swiper-wrapper">
+                      <!-- Slides -->
+                    </div>
+                  </div>
+                </div>
+                <button id="arrow1970Next" class="memories-arrow">
+                  <img src="assets/img/icons/next.svg" class="img-fluid" alt="" />
+                </button>
+              </div>
+            </div>
+
+            <!-- Slider Row 1980 -->
+            <div data-year="1980" class="memories-row">
+              <div class="memories-title">1980s</div>
+              <div class="memories-row-data">
+                <button id="arrow1980Prev" class="memories-arrow">
+                  <img src="assets/img/icons/prev.svg" class="img-fluid" alt="" />
+                </button>
+                <div class="swiper-lib">
+                  <div class="swiper-container swiper-container-1980">
+                    <!-- Additional required wrapper -->
+                    <div id="swiper1980" class="swiper-wrapper">
+                      <!-- Slides -->
+                    </div>
+                  </div>
+                </div>
+                <button id="arrow1980Next" class="memories-arrow">
+                  <img src="assets/img/icons/next.svg" class="img-fluid" alt="" />
+                </button>
+              </div>
+            </div>
+
+            <!-- Slider Row 1990 -->
+            <div data-year="1990" class="memories-row">
+              <div class="memories-title">1990s</div>
+              <div class="memories-row-data">
+                <button id="arrow1990Prev" class="memories-arrow">
+                  <img src="assets/img/icons/prev.svg" class="img-fluid" alt="" />
+                </button>
+                <div class="swiper-lib">
+                  <div class="swiper-container swiper-container-1990">
+                    <!-- Additional required wrapper -->
+                    <div id="swiper1990" class="swiper-wrapper">
+                      <!-- Slides -->
+                    </div>
+                  </div>
+                </div>
+                <button id="arrow1990Next" class="memories-arrow">
+                  <img src="assets/img/icons/next.svg" class="img-fluid" alt="" />
+                </button>
+              </div>
+            </div>
+
+            <!-- Slider Row 2000 -->
+            <div data-year="2000" class="memories-row">
+              <div class="memories-title">2000s</div>
+              <div class="memories-row-data">
+                <button id="arrow2000Prev" class="memories-arrow">
+                  <img src="assets/img/icons/prev.svg" class="img-fluid" alt="" />
+                </button>
+                <div class="swiper-lib">
+                  <div class="swiper-container swiper-container-2000">
+                    <!-- Additional required wrapper -->
+                    <div id="swiper2000" class="swiper-wrapper">
+                      <!-- Slides -->
+                    </div>
+                  </div>
+                </div>
+                <button id="arrow2000Next" class="memories-arrow">
+                  <img src="assets/img/icons/next.svg" class="img-fluid" alt="" />
+                </button>
+              </div>
+            </div>
+
+            <!-- Slider Row 2010 -->
+            <div data-year="2010" class="memories-row">
+              <div class="memories-title">2010s</div>
+              <div class="memories-row-data">
+                <button id="arrow2010Prev" class="memories-arrow">
+                  <img src="assets/img/icons/prev.svg" class="img-fluid" alt="" />
+                </button>
+                <div class="swiper-lib">
+                  <div class="swiper-container swiper-container-2010">
+                    <!-- Additional required wrapper -->
+                    <div id="swiper2010" class="swiper-wrapper">
+                      <!-- Slides -->
+                    </div>
+                  </div>
+                </div>
+                <button id="arrow2010Next" class="memories-arrow">
+                  <img src="assets/img/icons/next.svg" class="img-fluid" alt="" />
+                </button>
+              </div>
+            </div>
+
+            <div data-year="articles" class="memories-row">
+              <div class="memories-title">Articles</div>
+              <div class="memories-row-data">
+                <button id="arrowarticlesPrev" class="memories-arrow">
+                  <img src="assets/img/icons/prev.svg" class="img-fluid" alt="" />
+                </button>
+                <div class="swiper-lib">
+                  <div class="swiper-container swiper-container-articles">
+                    <!-- Additional required wrapper -->
+                    <div id="swiperarticles" class="swiper-wrapper">
+                      <!-- Slides -->
+                    </div>
+                  </div>
+                </div>
+                <button id="arrowarticlesNext" class="memories-arrow">
+                  <img src="assets/img/icons/next.svg" class="img-fluid" alt="" />
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="container-fluid height-fluid">
+        <div class="footer-content height-fluid d-flex align-items-center justify-content-between">
+          <div class="fc-left">Saudi Aramco Mobility Center</div>
+          <div class="fc-right">
+            <a href="home.html" class="d-flex align-items-center">
+              <img src="assets/img/icons/arrowhead-back.svg" class="img-fluid icon-arrowheads" alt="" /> Back
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- Home Page -->
+
+  <!-- Scripts -->
+  <!-- Jquery V 3.3.1 -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <!-- Popper Js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap V 4.3.1 -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
+  <!-- Main Functions -->
+  <script src="assets/js/data.js"></script>
+  <!-- <script src="assets/js/canvas.js"></script> -->
+  <script src="assets/js/functions.js"></script>
+  <script>
+
+    $('.memories-row').each(function () {
+      var year = $(this).attr('data-year');
+      data.forEach(row => {
+        if (row.year == year) {
+          var htmlEl = '';
+          for (let x = 0; x < row.gallery.length; x++) {
+            htmlEl += `<a href="${row.gallery[x].img}" data-year="${row.year}" class='swiper-slide swiper-slide-magnific${year} memory-slide'><img class="" src="${row.gallery[x].img}" data-desc="${row.gallery[x].desc}" /></a>`;
+          }
+          $(`#swiper${year}`).append(htmlEl);
+        }
+      });
+
+      const swiper1970 = new Swiper(`.swiper-container-${year}`, {
+        speed: 1000,
+        spaceBetween: 10,
+        // slidesPerView: 7,
+        watchSlidesVisibility: true,
+        observer: true,
+        navigation: {
+          nextEl: `#arrow${year}Next`,
+          prevEl: `#arrow${year}Prev`,
+        },
+        autoplay: {
+          delay: 5000,
+        },
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 2,
+            spaceBetween: 10
+          },
+          // when window width is >= 480px
+          500: {
+            slidesPerView: 3,
+            spaceBetween: 10
+          },
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 4,
+            spaceBetween: 10
+          },
+          640: {
+            slidesPerView: 5,
+            spaceBetween: 10
+          },
+          1200: {
+            slidesPerView: 7,
+            spaceBetween: 10
+          },
+        }
+      });
+
+      $(`.swiper-slide-magnific${year}`).magnificPopup({
+        // delegate: 'div',
+        type: 'image',
+        // image: {
+        //   verticalFit: true
+        // },
+        zoom: {
+          enabled: true,
+          duration: 800,
+        },
+        mainClass: 'mfp-with-zoom',
+        easing: 'linear',
+        duration: 800,
+        gallery: {
+          enabled: true,
+          navigateByImgClick: true,
+          preload: [0, 2], // Will preload 0 - before current, and 1 after the current image
+          navigateByImgClick: true,
+        },
+        image: {
+          markup: '<div class="mfp-figure">' +
+            '<div class="mfp-close">close</div>' +
+            '<div class="mfp-img">image</div>' +
+            '<div class="mfp-bottom-bar">bottom' +
+            '<div class="mfp-title">title</div>' +
+            '<div class="mfp-counter">counter</div>' +
+            '</div>' +
+            '</div>',
+          verticalFit: true,
+          titleSrc: 'title',
+          titleSrc: function (item) {
+            return '<a href="' + item.el.attr('href') + '">' + item.el.attr('title') + '</a>';
+          }
+          // this tells the script which attribute has your caption
+        },
+        removalDelay: 3000,
+        callbacks: {
+          open: function (data) {
+            // Will fire when this exact popup is opened
+            // this - is Magnific Popup object
+
+          },
+          close: function () {
+            // Will fire when popup is closed
+          }
+          // e.t.c.
+        }
+        // other options here
+        // end each line (except the last) with a comma
+      });
+
+    });
+
+  </script>
+
+  <script>
+
+  </script>
+</body>
+
+</html>
